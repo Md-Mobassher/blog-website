@@ -7,3 +7,7 @@ export interface IBlog {
   blog_image: string;
   total_likes: string;
 }
+
+export interface IParams {
+  blogId: string;
+}
